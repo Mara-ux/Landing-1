@@ -18,7 +18,7 @@
             <a href="#program">Программа</a>
             <a href="#specers">Спикеры</a>
         </div>
-        <button class="btn__lined">Зарегистрироваться</button>
+        <button class="btn__lined" popovertarget="form-pop">Зарегистрироваться</button>
         <img src="img/icons/menu.svg" id="menu-btn">
     </nav>
     <section class="main">
@@ -34,7 +34,7 @@
                 <img src="img/Star 6.png" alt="">
                 <p>Топовые эксперты в аналитике данных поделятся своим опытом построения карьеры.</p>
             </div>
-            <button class="btn__filed">Учавствовать</button>
+            <button class="btn__filed" popovertarget="form-pop">Учавствовать</button>
         </div>
         <div class="box">
             <div class="box-text">
@@ -213,6 +213,22 @@
         <div class="wrapper">
             <h1>Зарегистрироваться на вебинар</h1>
             <form action="" class="form-box">
+                <div class="conte">
+                    <input type="text" placeholder="Имя">
+                    <input type="number" placeholder="Телефон">
+                    <input type="email" placeholder="email">
+                    <div class="check">
+                        <input type="checkbox" id="checkbox">
+                        <p>я согласен на обработку персональных данных и с правилами пользования Платформы</p>
+                    </div>
+                    <input type="submit" value="Зарегистрироваться" class="btn__filed">
+                </div>
+                <img src="img/Star 5.png" alt="" id="star">
+            </form>
+        </div>
+                <div class="popover-form" popover id="form-pop">
+            <form action="" class="form-pop">
+                <button popovertarget="form-pop" popovertargetaction="hide" class="hide-btn">X</button>
                 <div class="conte">
                     <input type="text" placeholder="Имя">
                     <input type="number" placeholder="Телефон">
