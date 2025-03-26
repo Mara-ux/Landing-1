@@ -624,7 +624,7 @@ input:focus{
         flex-direction: column;
         justify-content: space-between;
         color: #fff;
-        height: 160vw;
+        height: 200vw;
     }
     .mob{
         display: flex;
